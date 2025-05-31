@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-image: linear-gradient(to center, red,orange,yellow,green,blue,indigo,violet);
 }
 
 .App-logo {
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-image: linear-gradient(to center,blue,black,indigo);
 }
 
 .App-link {
@@ -35,4 +37,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+.d1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  height: 100%;
+  width: 100%;
+  background-color: blue;
+  background-image: linear-gradient(to right,blue,pink,violet,pink,violet,pink,blue);
+  /* background-image: linear-gradient(to bottom,blue,pink,violet,pink,violet,pink,blue); */
+ 
+}
+img{
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+#no{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+#yes{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
