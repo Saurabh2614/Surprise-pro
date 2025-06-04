@@ -4,9 +4,6 @@ import { useNavigate } from 'react-router-dom';
 
 export default function Home3() {
   const navigate=useNavigate();
-          function yes(){
-            console.log("yes");
-          }
           
     return(
         <div className='d1'>
@@ -16,7 +13,7 @@ export default function Home3() {
         <h2><strong>Ek Baar Or Soch Le '🥹🥹</strong></h2><br/>
         <h4>DO You Love Me 💕💕😩🤌</h4><br/>
         <div className='but'>
-          <button onClick={yes} id="yes">Yes</button> &nbsp; <button onClick={()=>{navigate("/home4")}} id="no">No</button>
+          <button onClick={()=>{navigate("/home5")}} id="yess">Yes</button> &nbsp; <button onClick={()=>{navigate("/home4")}} id="no">No</button>
         </div>
       </div>
       

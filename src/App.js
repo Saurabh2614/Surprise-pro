@@ -7,7 +7,7 @@ import Home3 from './pages/Home3';
 import Home4 from './pages/Home4';
 import Home5 from './pages/Home5';
 import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import {React, ReactDOM} from 'react';
+// import {React, ReactDOM} from 'react';
 
 function App() {
   return (
